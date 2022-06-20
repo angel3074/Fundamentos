@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  display: inline-block;
+  position: left;
+}
+
+.main{
+  background-color: aqua;
+  padding: 10px;
+  height: 60vh;
+  border-bottom-left-radius:120px;
+}
+
+.main{
+  background-image: url(./images/perro.avif
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  color: #FFFFFF;
+}
+ul {
+  list-style: none;
+}
+.secondMain{
+  margin: auto;
+  margin-top: 130px;
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+}
+.secondMain{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 3em
+}
+
+.secondText{
+  padding-left: 520px;
+}
+
+.moreAbout{
+  border-radius: 30px;
+  background-color:silver;
+  border: none;
+  color: white;
+  padding: 15px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+.anotherBtn{
+  border-radius: 30px;
+  background-color:#eb9090;
+  border: none;
+  color: white;
+  padding: 15px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.wholeBtn{
+display: inline-block;
+margin: 10px 10px;
+margin-left: 600px;
+}
+.myBtn{
+  display: inline-block;
+}
+
+.moreAbout {
+  transition-duration: 0.4s;
+}
+
+.moreAbout:hover{
+  background-color: #e4a7a7; /* Green */
+  color: white;
+}
+
+/* --------------- Nav-bar */
+.nav-bar{  
+padding-left: 130px;
+}
+.nav-bar a:hover{
+  transition-duration: 0.4s;
+}
+
+.nav-bar a {
+  float: left;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  text-shadow: #FFFFFF;
+  font-size: 17px;
+}
+
+.nav-bar a:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 30px;
+}
+
+.nav-bar a:active{
+  background-color: sandybrown;
+  color: white;
+}
+
+.onTheRight{
+  padding-left: 1200px;
+}
+
+/* main text section */
+.mainText{
+  margin: 20px;
+  padding: 30px;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: center;
+}
+.thirdMain{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkblue;
+}
+.h3Title{
+  color: darkblue;
+}
+.leftText{
+columns:100px 2}
+  /* text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+/* Change the color of links on hover */
+/* .topnav a:hover {
+background-color: #ddd;
+color: black;
+} */
+
+/* Add a color to the active/current link */
+/* .topnav a.active {
+background-color: #04AA6D;
+color: white;
+} */ 
