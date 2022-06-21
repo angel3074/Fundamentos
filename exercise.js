@@ -223,26 +223,48 @@ function minMaxAgesUser2(arrayUsuarios) {
 // *El primer arreglo que recibe la función puede tener n cantidad de estudiantes.
 // *El segundo arreglo que recibe la función puede tener n cantidad de países. *El tercer parámetro que recibe la función puede ser el nombre de cualquier país.
 
-const array1 = [
-  { name: 'Georg', email: 'georg@academlo.com', country_id: 1 },
-  { name: 'Andrea', email: 'andrea@gmail.com', country_id: 2 },
-  { name: 'Daniela', email: 'daniela@gmail.com', country_id: 2 },
-  { name: 'Mónica', email: 'monica@gmail.com', country_id: 2 }
-]
+// const array1 = [
+//   { name: 'Georg', email: 'georg@academlo.com', country_id: 1 },
+//   { name: 'Andrea', email: 'andrea@gmail.com', country_id: 2 },
+//   { name: 'Daniela', email: 'daniela@gmail.com', country_id: 2 },
+//   { name: 'Mónica', email: 'monica@gmail.com', country_id: 2 }
+// ]
 
-const array2 = [
-  { id: 1, name: 'Mexico', },
-  { id: 2, name: 'Colombia' }
-]
+// const array2 = [
+//   { id: 1, name: 'Mexico', },
+//   { id: 2, name: 'Colombia' }
+// ]
 
-let pais = 'Colomnbia'
+// let pais = 'Colomnbia'
 
-function countStudents(students, countries, countryName) {
-  const numberStudents = [];
-  for (let i = 0; i < students.length; i++) {
-      numberStudents.push(students[i].country_id);
+// function countStudents(students, countries, countryName) {
+//   const numberStudents = [];
+//   for (let i = 0; i < students.length; i++) {
+//       numberStudents.push(students[i].country_id);
       
+//   }
+
+// };
+
+const array =
+[
+    { name: 'Daniela', age: 25 },
+    { name: 'Andrea', age: 23 },
+    { name: 'José', age: 27 },
+    { name: 'Georg', age: 23 },
+  ];
+
+function findMostCommonAge(students) {
+    let newArray = [];
+    for (let i = 0; i < students.length; i++) {
+        newArray.push(students[i].age);
+        // for (let j = i; j < students.length; j++) {
+            
+        // }
+        
+    }
+    return newArray;
   }
 
-};
-
+  console.log(findMostCommonAge(array));
+  

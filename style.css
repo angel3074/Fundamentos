@@ -16,8 +16,8 @@ h1 {
 }
 
 .main{
-  background-image: url(./images/perro.avif
-  );
+  /* background-image: url(./images/perro.avif
+  ); */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size:cover;
