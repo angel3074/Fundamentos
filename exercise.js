@@ -245,26 +245,60 @@ function minMaxAgesUser2(arrayUsuarios) {
 //   }
 
 // };
+//! EJERCICIO 11
 
-const array =
-[
-    { name: 'Daniela', age: 25 },
-    { name: 'Andrea', age: 23 },
-    { name: 'José', age: 27 },
-    { name: 'Georg', age: 23 },
-  ];
 
-function findMostCommonAge(students) {
-    let newArray = [];
-    for (let i = 0; i < students.length; i++) {
-        newArray.push(students[i].age);
-        // for (let j = i; j < students.length; j++) {
-            
-        // }
+// const array =
+// [
+//     { name: 'Daniela', age: 25 },
+//     { name: 'Andrea', age: 23 },
+//     { name: 'José', age: 27 },
+//     { name: 'Georg', age: 23 },
+//   ];
+
+// function findMostCommonAge(students) {
+//     let newArray = [];
+//     let matchNum = [];
+//     for (let i = 0; i < students.length; i++) {
+//         newArray.push(students[i].age);
+//         for (let j = i; j < students.length; j++) {
+//             if(students[j] === students[i]){
+//                 matchNum.push(students[i].age)
+//             }
+//         }
+        
+//     }
+//     return newArray;
+//   }
+
+//   console.log(findMostCommonAge(array));
+const myFunc = [
+    {
+        name: 'Erik',
+        gender: 'male',
+        age: 22,
+    },
+    {
+        name: 'Daniela',
+        gender: 'female',
+        age: 22,
+    },
+    {
+        name: 'Gustavo',
+        gender: 'male',
+        age: 49,
+    },
+    {
+        name: 'María',
+        gender: 'female',
+        age: 35,
+    },
+];
+
+  function findUser(users, name) {
+    for (let i = 0; i < array.length; i++) {
+       
         
     }
-    return newArray;
-  }
 
-  console.log(findMostCommonAge(array));
-  
+  }
